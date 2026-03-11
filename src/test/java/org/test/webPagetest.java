@@ -17,7 +17,7 @@ public class webPagetest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("https://github.com/Himagowri5/dev-3/");
+        driver.get("https://himagowri5.github.io/dev-3/");
     }
 
     @Test
